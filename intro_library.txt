@@ -1,0 +1,46 @@
+### Library NumPy, Pandas, SciPy, Matplotlib ###
+
+Numpy berasal dari kata ‘Numerical Python’, sesuai namanya NumPy berfungsi sebagai library untuk melakukan proses komputasi numerik 
+terutama dalam bentuk array multidimensional (1-Dimensi ataupun 2-Dimensi). 
+Array merupakan kumpulan dari variabel yang memiliki tipe data yang sama. NumPy menyimpan data dalam bentuk arrays.
+
+Pandas merupakan library yang memudahkan dalam melakukan manipulasi, cleansing maupun analisis struktur data. Dengan menggunakan Pandas, 
+dapat memanfaatkan lima fitur utama dalam pemrosesan dan analisis data, yaitu load, prepare, manipulate, modelling, dan analysis data.
+
+Pandas menggunakan konsep array dari NumPy namun memberikan index kepada array tersebut, sehingga disebut series ataupun data frame. 
+Sehingga bisa dikatakan Pandas menyimpan data dalam dictionary-based NumPy arrays. 1-Dimensi labelled array dinamakan sebagai Series. 
+Sedangkan 2-Dimensi dinamakan sebagai Data Frame.
+
+Library SciPy
+Scipy dibangun untuk bekerja dengan array NumPy dan menyediakan banyak komputasi numerik yang ramah pengguna dan efisien seperti rutinitas untuk integrasi, 
+diferensiasi dan optimasi numerik.
+
+Baik NumPy maupun SciPy berjalan pada semua operating system, cepat untuk diinstall dan gratis. 
+NumPy dan SciPy mudah digunakan, tetapi cukup kuat untuk diandalkan oleh beberapa data scientist dan researcher terkemuka dunia.
+
+Matplotlib merupakan library dari Python yang umum digunakan untuk visualisasi data. Matplotlib memiliki kapabilitas untuk membuat visualisasi data 2-dimensional. 
+Contoh visualisasi yang dapat dibuat dengan menggunakan matplotlib diantaranya adalah
+
+Line chart
+Bar chart
+Pie chart
+Box plot chart
+Violin chart
+Errorbar chart
+Scatter chart
+Jenis-jenis chart lainnya juga dapat dibuat melalui library ini.
+
+
+Inspeksi struktur data frame
+Setelah melakukan proses loading dataframe ke dalam Python. Hal selanjutnya sebelum memulai analisis tentunya mengerti struktur dataset tersebut. 
+Sehingga langkah selanjutnya dari pre - analisis biasanya dilakukan untuk:
+
+1.melihat struktur data frame,
+2.melihat preview data dari dataframe tersebut, dan
+3.membuat summary data sederhana dari dataset.
+
+Melihat struktur kolom dan baris dari data frame
+Hal pertama dalam mengerti struktur dari dataframe adalah informasi mengenai berapa size dari dataframe yang akan digunakan 
+termasuk berapa jumlah kolom dan jumlah baris data frame tersebut.
+
+Dalam kasus ini, aku dapat menggunakan fungsi .shape pada suatu dataframe. Syntaxnya dinyatakan dengan: print([nama_dataframe].shape)
