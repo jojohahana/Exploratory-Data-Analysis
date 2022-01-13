@@ -1,0 +1,13 @@
+Rename Kolom Data Frame
+Pada bagian ini, aku belajar cara mengganti nama kolom dataframe menggunakan Pandas. Mengganti nama kolom pada Pandas dapat dilakukan dengan 2 cara:
+
+1.Menggunakan nama kolom.
+    nama_dataframe.Rename(columns={"columns_name_before" : "columns_name_after"}, inplace = True)
+    Example Case : 
+        nilai_skor_df.Rename(columns={"Age" : "Umur"}, inplace = True)
+
+2.Menggunakan indeks kolom.
+    nama_dataframe.columns.values[no_of_column] = "columns_name_after"
+    Example Case :
+        nilai_skor_df.columns.values[0] = "Umur"
+

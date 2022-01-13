@@ -1,0 +1,13 @@
+Kegunaan .groupby adalah 
+mencari summary dari data frame dengan menggunakan aggregate dari kolom tertentu.
+Penggunaan .groupby :
+    contoh data frame df dengan 4 kolom, Name, Exam, Subject, Score
+    Syntax: 
+        df["Score"].groupby([df["Name"]]).mean()
+    ..Kolom ‘Name’ sebagai aggregate dan kemudian 
+    menggunakan menghitung mean dari kolom ‘Score’ pada tiap - tiap aggregate tersebut.
+
+    Another Syntax : 
+        df["Score"].groupby([df["Name"], df["Exam"]]).sum()
+    ...Kolom ‘Name’ dan ‘Exam’ sebagai aggregate dan kemudian 
+    menggunakan menghitung sum dari kolom ‘Score’ pada tiap - tiap aggregate tersebut.
